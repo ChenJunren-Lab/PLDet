@@ -2,6 +2,9 @@
 
 This paper has been accepted at Biomedical Signal Processing and Control (BSPC).  
 
+🔥 Our [TinyU-Net: Lighter Yet Better U-Net with Cascaded Multi-receptive Fields](https://doi.org/10.1007/978-3-031-72114-4_60) [[Official Implementation](https://doi.org/10.1007/978-3-031-72114-4_60)]  has been published at `MICCAI 2024` as an `Oral` (2.7% of submissions).
+
+
 ## BibTex
 ```bibtex
 @InProceedings{Chen_PLDet,
@@ -10,6 +13,17 @@ This paper has been accepted at Biomedical Signal Processing and Control (BSPC).
         year      = {2026},
         # todo: add booktitle, publisher, volume, month, pages
 }
+
+@InProceedings{Chen_TinyUNet_MICCAI2024Oral,
+        author    = {Chen, Junren and Chen, Rui and Wang, Wei and Cheng, Junlong and Zhang, Lei and Chen, Liangyin},
+        title     = {TinyU-Net: Lighter Yet Better U-Net with Cascaded Multi-receptive Fields},
+        booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+        year      = {2024},
+        publisher = {Springer Nature Switzerland},
+        volume    = {LNCS 15009},
+        month     = {October},
+        pages     = {626--635}
+}
 ```
 
 ## 📌 Abstract
@@ -17,4 +31,10 @@ Automated and precise detection of lesions in chest computed tomography (CT) ima
 
 ## 🔍 Methodology
 ![Overview of PLDet](./assets/Figure1_PLDet.png "")
+The overview of our PLDet. The proposed PLDet adopts YOLO architecture, including three functional networks: the backbone, neck, and head networks.  Both the IMP module and LSA network are integrated into the backbone and neck networks.
+
+![Overview of PLDet](./assets/Figure2_IMP.png "")
+The overview of our PLDet. The proposed PLDet adopts YOLO architecture, including three functional networks: the backbone, neck, and head networks.  Both the IMP module and LSA network are integrated into the backbone and neck networks.
+
+![Overview of PLDet](./assets/Figure3_LSA.png "")
 The overview of our PLDet. The proposed PLDet adopts YOLO architecture, including three functional networks: the backbone, neck, and head networks.  Both the IMP module and LSA network are integrated into the backbone and neck networks.
