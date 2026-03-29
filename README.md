@@ -43,7 +43,10 @@ Automated and precise detection of lesions in chest computed tomography (CT) ima
 ![Overview of PLDet](./assets/Figure1_PLDet.png "")
 The overview of our PLDet. The proposed PLDet adopts YOLO architecture, including three functional networks: the backbone, neck, and head networks.  Both the IMP module and LSA network are integrated into the backbone and neck networks.
 
-Our framework is primarily derived from [YOLOX](https://github.com/bubbliiiing/yolox-pytorch), a popular deep learning framework for object detection, thanks to open source. Specifically, the original CSPLayer was replaced by a cascaded configuration of the proposed IMP and LSA modules. We leverage this open-source foundation to ensure the reproducibility and scalability of our PLDet model.
+Our framework is primarily derived from [YOLOX](https://github.com/bubbliiiing/yolox-pytorch), a popular deep learning framework for object detection, thanks to open source.  Specifically, our PLDet architecture incorporates three key modifications: (i) the standard CSPLayer is replaced with a sequentially cascaded arrangement of the proposed IMP and LSA modules;  (ii) the SPPBottleneck was omitted to streamline the architecture;  and (iii) bicubic interpolation was adopted in place of nearest neighbor interpolation for upsampling to achieve smoother feature transitions.
+
+
+We leverage this open-source foundation to ensure the reproducibility and scalability of our PLDet model.
 
 ### IMP Architecture
 ![Overview of IMP](./assets/Figure2_IMP.png "")
