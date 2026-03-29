@@ -1,10 +1,11 @@
 # PLDet: Intra-layer Multi-scale Perception and Local Space Attention for Pulmonary Lesion Detection in CT Images
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Language](https://img.shields.io/static/v1?label=By&message=Pytorch&color=red)
 
-This paper has been accepted at Biomedical Signal Processing and Control (BSPC).  
+This paper has been accepted at Biomedical Signal Processing and Control (BSPC).
 
-🔥 Our [TinyU-Net: Lighter Yet Better U-Net with Cascaded Multi-receptive Fields](https://doi.org/10.1007/978-3-031-72114-4_60) [[Official Implementation](https://doi.org/10.1007/978-3-031-72114-4_60)]  has been published at `MICCAI 2024` as an `Oral` (2.7% of submissions).
+✨ Our [Neighborhood Self-Dissimilarity Attention for Medical Image Segmentation](https://openreview.net/pdf?id=tBhEHymG1m) [[Official Implementation](https://github.com/ChenJunren-Lab/Neighborhood-Self-Dissimilarity-Attention)] has been accepted at `NeurIPS 2025` as a `Spotlight` (3% of submissions).  
 
+🔥 Our [TinyU-Net: Lighter Yet Better U-Net with Cascaded Multi-receptive Fields](https://doi.org/10.1007/978-3-031-72114-4_60) [[Official Implementation](https://github.com/ChenJunren-Lab/TinyU-Net)]  has been published at `MICCAI 2024` as an `Oral` (2.7% of submissions).
 
 ## BibTex
 ```bibtex
@@ -12,6 +13,13 @@ This paper has been accepted at Biomedical Signal Processing and Control (BSPC).
         author    = {Chen, Junren and Wang, Wei and Cheng, Junlong and Liang, Gang and Zhang, Lei and Chen, Liangyin},
         title     = {PLDet: Intra-layer Multi-scale Perception and Local Space Attention for Pulmonary Lesion Detection in CT Images},
         year      = {2026},
+        # todo: add booktitle, publisher, volume, month, pages
+}
+
+@InProceedings{Chen_NSDA_NeurIPS2025Spotlight,
+        author    = {Chen, Junren and Chen, Rui and Wang, Wei and Cheng, Junlong and Liang, Gang and Zhang, Lei and Chen, Liangyin},
+        title     = {Neighborhood Self-Dissimilarity Attention for Medical Image Segmentation},
+        year      = {2025},
         # todo: add booktitle, publisher, volume, month, pages
 }
 
