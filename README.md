@@ -10,22 +10,25 @@ This paper has been accepted at Biomedical Signal Processing and Control (BSPC) 
 ## BibTex
 ```bibtex
 @InProceedings{Chen_PLDet,
-        author    = {Chen, Junren and Wang, Wei and Cheng, Junlong and Liang, Gang and Zhang, Lei and Chen, Liangyin},
         title     = {PLDet: Intra-layer Multi-scale Perception and Local Space Attention for Pulmonary Lesion Detection in CT Images},
+        author    = {Chen, Junren and Wang, Wei and Cheng, Junlong and Liang, Gang and Zhang, Lei and Chen, Liangyin},
+        journal={Biomedical Signal Processing and Control},
         year      = {2026},
-        # todo: add booktitle, publisher, volume, month, pages
+        publisher = {Elsevier}
+        # todo: add volume and pages
 }
 
 @InProceedings{Chen_NSDA_NeurIPS2025Spotlight,
-        author    = {Chen, Junren and Chen, Rui and Wang, Wei and Cheng, Junlong and Liang, Gang and Zhang, Lei and Chen, Liangyin},
         title     = {Neighborhood Self-Dissimilarity Attention for Medical Image Segmentation},
+        author    = {Chen, Junren and Chen, Rui and Wang, Wei and Cheng, Junlong and Liang, Gang and Zhang, Lei and Chen, Liangyin},
         year      = {2025},
-        # todo: add booktitle, publisher, volume, month, pages
+        booktitle = {The Thirty-ninth Annual Conference on Neural Information Processing Systems}
+        # todo: add publisher, volume, month, pages
 }
 
 @InProceedings{Chen_TinyUNet_MICCAI2024Oral,
-        author    = {Chen, Junren and Chen, Rui and Wang, Wei and Cheng, Junlong and Zhang, Lei and Chen, Liangyin},
         title     = {TinyU-Net: Lighter Yet Better U-Net with Cascaded Multi-receptive Fields},
+        author    = {Chen, Junren and Chen, Rui and Wang, Wei and Cheng, Junlong and Zhang, Lei and Chen, Liangyin},
         booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
         year      = {2024},
         publisher = {Springer Nature Switzerland},
