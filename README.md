@@ -1,7 +1,7 @@
 # PLDet: Intra-layer Multi-scale Perception and Local Space Attention for Pulmonary Lesion Detection in CT Images
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Language](https://img.shields.io/static/v1?label=By&message=Pytorch&color=red)
 
-This paper has been accepted at Biomedical Signal Processing and Control (BSPC).
+This paper has been accepted at Biomedical Signal Processing and Control (BSPC) in 2026.
 
 ✨ Our [Neighborhood Self-Dissimilarity Attention for Medical Image Segmentation](https://openreview.net/pdf?id=tBhEHymG1m) [[Official Implementation](https://github.com/ChenJunren-Lab/Neighborhood-Self-Dissimilarity-Attention)] has been accepted at `NeurIPS 2025` as a `Spotlight` (3% of submissions).  
 
