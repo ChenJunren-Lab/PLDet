@@ -79,7 +79,7 @@ class DilatedConv(nn.Module):
     def fuseforward(self, x):
         return self.act(self.conv(x))
 
-#! CJR：上采样模块
+
 class UpsampleConv(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size=1, stride=1, padding=0):
         super().__init__()
