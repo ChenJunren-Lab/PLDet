@@ -12,7 +12,7 @@ This paper has been accepted at Biomedical Signal Processing and Control (BSPC) 
 @InProceedings{Chen_PLDet,
         title     = {PLDet: Intra-layer Multi-scale Perception and Local Space Attention for Pulmonary Lesion Detection in CT Images},
         author    = {Junren Chen and Wei Wang and Junlong Cheng and Gang Liang and Lei Zhang and Liangyin Chen},
-        journal={Biomedical Signal Processing and Control},
+        journal   = {Biomedical Signal Processing and Control},
         volume    = {120},
         pages     = {110087},
         year      = {2026},
