@@ -22,15 +22,15 @@ This paper has been accepted at Biomedical Signal Processing and Control (BSPC) 
 }
 
 @inproceedings{Chen_NSDA_NeurIPS2025Spotlight,
- author = {Chen, Junren and Chen, Rui and Wang, Wei and Cheng, Junlong and Liang, Gang and zhanglei-scu and Chen, Liangyin},
- booktitle = {Advances in Neural Information Processing Systems},
- editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
- pages = {38165--38185},
- publisher = {Curran Associates, Inc.},
- title = {Neighborhood Self-Dissimilarity Attention for Medical Image Segmentation},
- url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/36b80eae70ff629d667f210e13497edf-Paper-Conference.pdf},
- volume = {38},
- year = {2025}
+         author    = {Chen, Junren and Chen, Rui and Wang, Wei and Cheng, Junlong and Liang, Gang and zhanglei-scu and Chen, Liangyin},
+         booktitle = {Advances in Neural Information Processing Systems},
+         editor    = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
+         pages     = {38165--38185},
+         publisher = {Curran Associates, Inc.},
+         title     = {Neighborhood Self-Dissimilarity Attention for Medical Image Segmentation},
+         url       = {https://proceedings.neurips.cc/paper_files/paper/2025/file/36b80eae70ff629d667f210e13497edf-Paper-Conference.pdf},
+         volume    = {38},
+         year      = {2025}
 }
 
 @InProceedings{Chen_TinyUNet_MICCAI2024Oral,
